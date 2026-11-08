@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now | Crafted Loop</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/svg+xml" href="../gallery/logo.svg">
+</head>
+<body>
+    <header>
+        <h1>Crafted Loop</h1>
+        <p>Every Stitch Tells a Story.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="registration.html">Order Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a href="articles.html">Articles</a>
+                <ul>
+                    <a href="articles.html">Articles</a>
+                <ul>
+                    <li><a href="articles.html">All Articles</a></li>
+                <li><a href="tas-rajut.html">Mengenal Tas Rajut</a></li>
+                <li><a href="proses-merajut.html">Proses Merajut</a></li>
+                <li><a href="merawat-rajutan.html">Tips Perawatan</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+<main class="registration-page">
+
+        <div class="section-heading">
+            <p>MAKE IT YOURS</p>
+            <h2>Order Now</h2>
+            <p>
+                Interested in our handmade creations?
+                Fill out the form below to place your order.
+            </p>
+        </div>
+
+        <form class="registration-form">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname"
+            placeholder="Enter your full name" required>
+
+            <label for="phone">WhatsApp Number</label>
+            <input type="tel" id="phone" name="phone"
+            placeholder="08xxxxxxxxxx" required>
+
+            <label for="product">Choose Your Product</label>
+            <select id="product" name="product" required>
+                <option value="">Select a product</option>
+                <option value="Crochet Bag">Crochet Bag</option>
+                <option value="Crochet Wallet">Crochet Wallet</option>
+                <option value="Crochet Keychain">Crochet Keychain</option>
+            </select>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity"
+            min="1" placeholder="Enter quantity" required>
+
+            <label for="color">Color Preference</label>
+            <input type="text" id="color" name="color"
+            placeholder="Your preferred color">
+
+            <label for="address">Delivery Address</label>
+            <textarea id="address" name="address"
+            rows="4" placeholder="Enter your complete address"
+            required></textarea>
+
+            <label for="notes">Order Notes (Optional)</label>
+            <textarea id="notes" name="notes"
+            rows="3" placeholder="Additional requests..."></textarea>
+
+            <button type="submit">Submit Order</button>
+
+        </form>
+
+    </main>
+</body>
+</html>
